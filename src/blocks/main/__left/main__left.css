@@ -2,5 +2,6 @@
     background-image: url(../../../images/left.PNG);
     min-height: 100vh;
     background-repeat: no-repeat;
-    min-width: 310px;
+    background-size: cover;
+    max-height: 800px;
 }

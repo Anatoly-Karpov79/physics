@@ -1,8 +1,8 @@
 function Main() {
     return(
 <div className="main">
-    <div className="main__left"></div>
-    <div className="main__right"></div>
+    <div className="0main__left"></div>
+    <div className="0main__right"></div>
 </div>
     )
 }

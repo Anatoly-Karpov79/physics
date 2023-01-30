@@ -1,9 +1,14 @@
 .main {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+   min-height: 100vh;
     
-    
+    max-height: 90vh;
     width: 98%;
     
     align-items: center;
+background-image: url(../../images/background.PNG);
+background-repeat: no-repeat;
+    background-size: contain;
+
+
 }
