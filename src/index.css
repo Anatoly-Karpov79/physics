@@ -16,3 +16,4 @@ code {
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/__left/main__left.css);
 @import url(./blocks/main/__right/main__right.css);
+@import url(./blocks/menu/menu.css);
