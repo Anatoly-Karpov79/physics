@@ -1,0 +1,6 @@
+.main__left {
+    background-image: url(../../../images/left.PNG);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    min-width: 310px;
+}
