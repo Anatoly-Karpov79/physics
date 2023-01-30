@@ -23,7 +23,7 @@ class Link extends React.Component {
     render() {
         const url ="/" + this.props.label;
         return <div>
-            <a href={url}>{this.props.label}</a>
+            <a className="menu__link" href={url}> {this.props.label}</a>
         </div>
     }
 }

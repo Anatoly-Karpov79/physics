@@ -4,7 +4,7 @@ function Main() {
     return(
 <div className="main">
     <div className="main__left">
-        
+       
     <Menu />
     </div>
     <div className="main__right">
