@@ -1,6 +1,7 @@
 .menu {
     display: grid;
     grid-row: 5;
-    margin: 10% 0 50px  100px;
+    gap: 20px;
+    margin: 179px 0 50px  100px;
     position: relative;
 }
