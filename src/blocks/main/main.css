@@ -1,14 +1,9 @@
 .main {
     display: grid;
-   min-height: 100vh;
+    grid-template-columns: 1fr 4fr;
     
     max-height: 90vh;
     width: 98%;
-    
+    height: 800px;
     align-items: center;
-background-image: url(../../images/background.PNG);
-background-repeat: no-repeat;
-    background-size: contain;
-
-
 }
