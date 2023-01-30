@@ -1,4 +1,9 @@
-.main__left {
- height: 100vh;
- min-width: 280px;
-}
+/*.main__left {
+ grid-column-start: 1;
+ grid-column-end: 3;
+ grid-row-start: 4;
+ grid-row-end: 6;
+ background-color: aqua;
+
+}*/
+
