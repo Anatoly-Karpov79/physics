@@ -1,14 +1,16 @@
-import Menu from "./Menu";
+import MainMenu from "./Menu";
+import Greeting from "./Greeting";
+
 
 function Main() {
     return(
 <div className="main">
     <div className="main__left">
-       <Menu />
+       <MainMenu />
     
     </div>
     <div className="main__right">
-    
+      <Greeting />
     </div>
 </div>
     )
