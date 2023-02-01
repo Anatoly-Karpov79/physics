@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 
 
-function NavBarSpeed() {
+function Speed() {
     return (
       <nav className="menu">
         <NavLink to="/" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>СОДЕРЖАНИЕ</NavLink>
-        <NavLink to="/speed" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>1.1</NavLink>
+        <NavLink to="/uniformmovement" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>1.1 Равномерное движение</NavLink>
         <NavLink to="/equationOfMotion" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>1.2</NavLink>
         <NavLink to="/charts" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>3. Графики</NavLink>
         <NavLink to="/addition" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>4. Сложение скоростей</NavLink>
@@ -15,4 +15,4 @@ function NavBarSpeed() {
     );
   }
   
-  export default NavBarSpeed;
+  export default Speed;

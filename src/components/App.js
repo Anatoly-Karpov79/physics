@@ -1,16 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
 import Main from "./Main";
-import NavBarSpeed from "./Speed.js"
-
+import Speed from "./Speed/Speed.js"
+import Motion from './Motion';
 
 
 function App() {
+
+  function handleSpeed () {
+    
+  }
   return (
     <>
-      <Routes>
-         <Route path="/" element={<Main />} />   
-         <Route path="/speed" element={<NavBarSpeed />} />  
-      </Routes>
+      <Main />
       
       
     </>
