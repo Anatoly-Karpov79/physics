@@ -1,14 +1,15 @@
-import MainMenu from "./Menu";
+import MainMenu from "./MainMenu";
 import Greeting from "./Greeting";
 import Motion from "./Motion";
+import SpeedMenu from "./SpeedMenu";
+import Speed from "./Speed/Speed";
 
 function Main() {
     return(
 <div className="main">
     <div className="main__left">
        <MainMenu />
-       
-      
+    
        
     
     </div>
