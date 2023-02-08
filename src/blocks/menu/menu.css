@@ -1,9 +1,10 @@
 .menu {
     display: grid;
+    position: relative;
     
     
     gap: 20px;
     
-    
+    z-index: 1000;
     
 }
