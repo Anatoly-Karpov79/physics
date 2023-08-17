@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Speed from "./Speed/Speed";
 
 function MainMenu() {
  
@@ -13,6 +13,7 @@ function MainMenu() {
        <Link to="/speed">5. Мгновенная и средняя скорость</Link>
 
     </div>
+  
   )  
   
   
