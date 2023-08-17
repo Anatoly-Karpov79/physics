@@ -1,0 +1,11 @@
+.app {
+    background-image: url(../images/background.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 765px;
+    width: 1087px;
+    align-items: center;
+    
+    
+    
+}

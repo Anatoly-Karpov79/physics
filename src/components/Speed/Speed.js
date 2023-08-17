@@ -1,18 +1,23 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import './Speed.css'
+import NavBarSpeed from "../NavBarSpeed/NavBarSpeed";
 
 
 function Speed() {
-    return (
-      <nav className="menu">
-        <NavLink to="/" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>СОДЕРЖАНИЕ</NavLink>
-        <NavLink to="/uniformmovement" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>1.1 Равномерное движение</NavLink>
-        <NavLink to="/equationOfMotion" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>1.2</NavLink>
-        <NavLink to="/charts" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>3. Графики</NavLink>
-        <NavLink to="/addition" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>4. Сложение скоростей</NavLink>
-        <NavLink to="/InstantAndAverageSpeed" className={({isActive}) => `menu__item ${isActive ? "menu__item_active" : ""}`}>5. Мгновенная и средняя скорость</NavLink>
-      </nav>
+  return (
+    <div>
+      
+      
+      <div className="speed">
+        <NavBarSpeed />
+        <div className="speed__content">
+          <h1> Скорость </h1>
+        </div>
+        
+      </div>
+    </div>
+      
     );
-  }
-  
-  export default Speed;
+}
+
+export default Speed;
