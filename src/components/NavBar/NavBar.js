@@ -11,6 +11,7 @@ function NavBar () {
       <NavLink to="/" className="navbar__link-main">Содержание</NavLink>
       <NavLink to="/speed" className="navbar__link">Скорость</NavLink>
       <NavLink to="/equationofmotion" className="navbar__link">Уравнение движения</NavLink>
+      <NavLink to="/xo" className="navbar__link">Крестики</NavLink>
     </nav>
 
 )

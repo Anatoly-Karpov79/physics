@@ -13,7 +13,7 @@ function Main() {
 <div className="main">
     <NavBar />
     <div className="main__content">
-         <h1>Вы на главной</h1>
+         <h1>Урок 2. Прямолинейное равномерное движение</h1>
     </div>
    
     </div>
