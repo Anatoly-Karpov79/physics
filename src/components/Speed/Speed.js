@@ -38,6 +38,7 @@ function Speed() {
         : { ...prev, wrongAnswers: prev.wrongAnswers + 1, setNextButtonDisable: false }
     )
     setNextButtonDisable(false)
+    
   }
 
   const onAnswerSelected = (answer, index) => {

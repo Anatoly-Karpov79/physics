@@ -10,7 +10,7 @@ function NavBarSpeed () {
     <nav className="navbar__menu">
     <NavLink to="/" className="navbar__link-main">Содержание</NavLink>
     <NavLink to="/speed/Uniformmovement" className="navbar__link">1.1 Равномерное движение</NavLink>
-    <NavLink to="/speed/speedtask" className="navbar__link">Скорость</NavLink>
+    <NavLink to="/speed/speedtask" className="navbar__link">1.2 Скорость</NavLink>
     </nav>
     
 

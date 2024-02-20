@@ -4,6 +4,7 @@ import Motion from "../Motion";
 import SpeedMenu from "../SpeedMenu";
 import Speed from "../Speed/Speed";
 import NavBar from "../NavBar/NavBar";
+import Result from "../Result/Result";
 import './Main.css'
 
 function Main() {
@@ -15,7 +16,7 @@ function Main() {
     <div className="main__content">
          <h1>Урок 2. Прямолинейное равномерное движение</h1>
     </div>
-   
+   <Result />
     </div>
 
     )
